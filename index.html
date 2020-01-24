@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#e8e8e8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CMR Kalendář" />
+    <meta name="author" content="Jakub Šnyrch" />
+    <title>CMR</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="sipky.css" />
+  </head>
+  <body>
+    <div id="cmr_apk">
+      <div class="cmr_obal" id="cmr_obal">
+        <div class="cmr_leva">
+          <svg
+            id="cmr_sipka_zpet"
+            class="vec1_sc"
+            viewBox="0 0 60 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_d)">
+              <path
+                class="vec1"
+                d="M21.4421 26.2405L5.34776 14.6856C4.21248 13.8705 4.24193 12.172 5.40477 11.3968L21.4318 0.712106C22.0827 0.278216 22.9267 0.263566 23.5922 0.67461L39.0914 10.2477C39.36 10.4135 39.664 10.5135 39.9786 10.5393L53.6129 11.66C56.0445 11.8598 56.0686 15.4112 53.64 15.6441L39.9412 16.9577C39.6506 16.9856 39.3696 17.0767 39.118 17.2247L23.6225 26.3397C22.9401 26.7411 22.0852 26.7022 21.4421 26.2405Z"
+                fill="#C0C0C0"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_d1"
+                x="0.51416"
+                y="0.376221"
+                width="58.9349"
+                height="34.2396"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <span class="cmr_roky">
+            <label style="display:none;">ROK</label>
+            <select id="cmr_rok_id">
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+            </select>
+          </span>
+          <svg
+            id="cmr_sipka_dopredu"
+            class="vec2_sc"
+            viewBox="0 0 60 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_d)">
+              <path
+                d="M38.5579 26.2405L54.6522 14.6856C55.7875 13.8705 55.7581 12.172 54.5952 11.3968L38.5682 0.712106C37.9173 0.278216 37.0733 0.263566 36.4078 0.67461L20.9086 10.2477C20.64 10.4135 20.336 10.5135 20.0214 10.5393L6.38709 11.66C3.9555 11.8598 3.93137 15.4112 6.36001 15.6441L20.0588 16.9577C20.3494 16.9856 20.6304 17.0767 20.882 17.2247L36.3775 26.3397C37.0599 26.7411 37.9148 26.7022 38.5579 26.2405Z"
+                fill="#C0C0C0"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_d2"
+                x="0.550913"
+                y="0.376221"
+                width="58.9349"
+                height="34.2396"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div class="cmr_prava">
+          <svg
+            id="cmr_sipka_zpet_M"
+            class="vec1_sc"
+            viewBox="0 0 60 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_d)">
+              <path
+                class="vec1"
+                d="M21.4421 26.2405L5.34776 14.6856C4.21248 13.8705 4.24193 12.172 5.40477 11.3968L21.4318 0.712106C22.0827 0.278216 22.9267 0.263566 23.5922 0.67461L39.0914 10.2477C39.36 10.4135 39.664 10.5135 39.9786 10.5393L53.6129 11.66C56.0445 11.8598 56.0686 15.4112 53.64 15.6441L39.9412 16.9577C39.6506 16.9856 39.3696 17.0767 39.118 17.2247L23.6225 26.3397C22.9401 26.7411 22.0852 26.7022 21.4421 26.2405Z"
+                fill="#C0C0C0"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_d3"
+                x="0.51416"
+                y="0.376221"
+                width="58.9349"
+                height="34.2396"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <span class="cmr_mesice">
+            <label style="display:none;">MĚSÍC</label>
+            <select id="cmr_mesic_id">
+              <option value="1">leden</option>
+              <option value="2">Únor</option>
+              <option value="3">březen</option>
+              <option value="4">duben</option>
+              <option value="5">květen</option>
+              <option value="6">červen</option>
+              <option value="7">červenec</option>
+              <option value="8">srpen</option>
+              <option value="9">září</option>
+              <option value="10">říjen</option>
+              <option value="11">listopad</option>
+              <option value="12">prosinec</option>
+            </select>
+          </span>
+          <svg
+            id="cmr_sipka_dopredu_M"
+            class="vec2_sc"
+            viewBox="0 0 60 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_d)">
+              <path
+                d="M38.5579 26.2405L54.6522 14.6856C55.7875 13.8705 55.7581 12.172 54.5952 11.3968L38.5682 0.712106C37.9173 0.278216 37.0733 0.263566 36.4078 0.67461L20.9086 10.2477C20.64 10.4135 20.336 10.5135 20.0214 10.5393L6.38709 11.66C3.9555 11.8598 3.93137 15.4112 6.36001 15.6441L20.0588 16.9577C20.3494 16.9856 20.6304 17.0767 20.882 17.2247L36.3775 26.3397C37.0599 26.7411 37.9148 26.7022 38.5579 26.2405Z"
+                fill="#C0C0C0"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_d"
+                x="0.550913"
+                y="0.376221"
+                width="58.9349"
+                height="34.2396"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div class="cmr_dny" style="display:inline-block;">
+          <div class="cmr_radek">
+            <div class="cmr_kolecko">
+              <span class="cmr_den">PO</span>
+            </div>
+            <div class="cmr_kolecko">
+              <span class="cmr_den">UT</span>
+            </div>
+            <div class="cmr_kolecko">
+              <span class="cmr_den">ST</span>
+            </div>
+            <div class="cmr_kolecko">
+              <span class="cmr_den">ČT</span>
+            </div>
+            <div class="cmr_kolecko">
+              <span class="cmr_den">PA</span>
+            </div>
+            <div class="cmr_kolecko week">
+              <span class="cmr_den">SO</span>
+            </div>
+            <div class="cmr_kolecko week">
+              <span class="cmr_den">NE</span>
+            </div>
+          </div>
+        </div>
+        <div class="cmr_radek_all" id="cmr_radek_all_id"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      // This is the "Offline page" service worker
+
+      // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+      // Check compatibility for the browser we're running this in
+      if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+          console.log(
+            "[PWA Builder] active service worker found, no need to register"
+          );
+        } else {
+          // Register the service worker
+          navigator.serviceWorker
+            .register("pwabuilder-sw.js", {
+              scope: "./"
+            })
+            .then(function(reg) {
+              console.log(
+                "[PWA Builder] Service worker has been registered for scope: " +
+                  reg.scope
+              );
+            });
+        }
+      }
+    </script>
+  </body>
+</html>

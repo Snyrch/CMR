@@ -1,0 +1,223 @@
+html,
+body {
+  min-width: 320px;
+}
+#cmr_apk {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+form * {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  behavior: url(PIE.htc);
+}
+.cmr_obal select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  text-align-last: center;
+}
+.cmr_obal select::-ms-expand {
+  display: none;
+}
+#app-kal {
+  position: relative;
+  width: 320px;
+  height: auto;
+}
+
+.cmr_roky select {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 9px;
+  background: #e8e8e8;
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+.cmr_mesice select {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 9px;
+  background: #e8e8e8;
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+.cmr_roky {
+  margin: 5px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+  text-transform: uppercase;
+}
+.cmr_mesice {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+  text-transform: uppercase;
+}
+.cmr_dalsi {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+
+  color: #000000;
+  text-transform: uppercase;
+}
+.cmr_zpet {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  color: #000000;
+  text-transform: uppercase;
+}
+.cmr_radek_all {
+  display: inline-block;
+}
+.vec1_sc {
+  height: 20px;
+}
+
+.vec2_sc {
+  height: 20px;
+}
+.vec2_sc path,
+.vec1_sc path {
+  fill: black;
+}
+
+.vec2_sc path:hover {
+  fill: black;
+  opacity: 0.8;
+}
+.vec1_sc path:hover {
+  fill: black;
+  opacity: 0.8;
+}
+.cmr_obal {
+  display: block;
+  width: 320px;
+  height: 375px;
+  padding-bottom: 5px;
+  left: 0px;
+  top: 0px;
+  border-radius: 9px;
+  background: #e8e8e8;
+}
+.vec2 {
+  background: #c0c0c0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  height: 30px;
+}
+
+.vec1 {
+  background: #c0c0c0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  height: 30px;
+}
+.cmr_radek_all .cmr_radek:first-child {
+  margin-top: 0px !important;
+}
+.cmr_radek_all .cmr_radek:last-child {
+  margin-bottom: 0px;
+}
+.cmr_radek {
+  width: 310px;
+  height: 41px;
+  margin-bottom: 9px;
+  margin-left: 5px;
+  margin-top: 0px;
+  background: transparent;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.cmr_radek .cmr_kolecko:first-child {
+  margin-left: 8px;
+}
+.cmr_radek .cmr_kolecko:last-child {
+  margin-right: 0px;
+}
+.cmr_kolecko {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  z-index: 5;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-right: 8px;
+  background: #e8e8e8;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.cmr_kolecko.noop {
+  background: #c0c0c0;
+}
+.cmr_kolecko:hover {
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.85);
+}
+.cmr_kolecko:hover > .cmr_den {
+  color: #db3960;
+}
+
+.cmr_den {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+/*
+.cmr_den {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+*/

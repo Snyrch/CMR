@@ -1,0 +1,64 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+.cmr_prava {
+  margin: 5px;
+  float: right;
+}
+.cmr_leva {
+  margin: 5px;
+  float: left;
+}
+.cmr_dny .cmr_kolecko {
+  margin-right: 4px;
+  background: #ffffff;
+}
+.cmr_kolecko.zabrane {
+  background: #e88888;
+}
+.cmr_kolecko.vybrane {
+  background: rgb(163, 237, 144);
+}
+.cmr_dny .cmr_kolecko.week {
+  background: #ffacc0;
+}
+.cmr_den.invisible {
+  opacity: 0;
+}
+.cmr_dny .cmr_radek {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  height: 35px;
+}
+.cmr_dny .cmr_den {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  left: 26%;
+  top: 16%;
+  transform: translate(-50%, -50%);
+
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.vec2_sc {
+  float: right;
+  height: 25px;
+}
+.vec1_sc {
+  height: 25px;
+  float: left;
+}

@@ -1,0 +1,94 @@
+{
+	"dir" : "ltr",
+	"lang" : "Czech",
+	"name" : "CMR",
+	"scope" : "/",
+	"display" : "fullscreen",
+	"start_url" : "https://sj3fg.csb.app/",
+	"short_name" : "CMR",
+	"theme_color" : "transparent",
+	"description" : "CMR Kalendář",
+	"orientation" : "portrait",
+	"background_color" : "transparent",
+	"related_applications" : "",
+	"prefer_related_applications" : "false",
+	"icons" : [
+		{
+			"src": "/qux_logo.png",
+			"sizes": "44x44"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "1240x600"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "300x300"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "150x150"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "88x88"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "24x24"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "50x50"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "620x300"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "36x36"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "1024x1024"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "120x120"
+		},
+		{
+			"src": "/qux_logo.png",
+			"sizes": "76x76"
+		}],
+	"screenshots" : [],
+	"generated" : "true"
+}
